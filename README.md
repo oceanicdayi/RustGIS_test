@@ -18,3 +18,8 @@ python examples/earthquake_map.py
 也可直接開啟 https://web.rustgis.app 並匯入 data 下的 GeoJSON。
 輸出在 outputs/。合成資料僅教學，不是實際地震或防災指引。
 API 依據 [官方 Python 文件](https://github.com/opengeos/RustGIS/blob/main/docs/python.md)；本次未執行 RustGIS runtime，需在 Colab 或本機驗證。
+
+## 新增：高解析度臺灣海岸線與 USGS 地震地圖
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceanicdayi/RustGIS_test/blob/main/notebooks/taiwan_coastline_usgs.ipynb)
+
+[Notebook](notebooks/taiwan_coastline_usgs.ipynb)：Natural Earth 1:10m 海岸線、可調日期與規模的 USGS 查詢、RustGIS 2400 像素輸出、互動地圖與 Matplotlib 300 DPI / SVG 科學圖件。尚未實際執行驗證。
