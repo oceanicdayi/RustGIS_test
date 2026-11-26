@@ -23,3 +23,8 @@ API 依據 [官方 Python 文件](https://github.com/opengeos/RustGIS/blob/main/
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceanicdayi/RustGIS_test/blob/main/notebooks/taiwan_coastline_usgs.ipynb)
 
 [Notebook](notebooks/taiwan_coastline_usgs.ipynb)：Natural Earth 1:10m 海岸線、可調日期與規模的 USGS 查詢、RustGIS 2400 像素輸出、互動地圖與 Matplotlib 300 DPI / SVG 科學圖件。尚未實際執行驗證。
+
+## AI Agent 自動化 GIS
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceanicdayi/RustGIS_test/blob/main/notebooks/ai_agent_gis.ipynb)
+
+[Notebook](notebooks/ai_agent_gis.ipynb)｜[90 分鐘教師手冊與 MCP 進階設定](docs/ai_agent_gis.md)。支援固定計畫 replay 與真正 LLM 規劃 live 模式，人工核准、RustGIS 執行、獨立事件 ID 與環域驗證、CER。尚未執行測試。
